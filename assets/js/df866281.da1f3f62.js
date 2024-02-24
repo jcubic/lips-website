@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknew_docs=self.webpackChunknew_docs||[]).push([[7326],{6122:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/lips-website/blog/tags/hello","allTagsPath":"/lips-website/blog/tags","count":1,"unlisted":false}')}}]);
