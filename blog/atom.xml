@@ -2,18 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jcubic.github.io/lips-website/blog</id>
     <title>LIPS Scheme Blog</title>
-    <updated>2024-02-10T00:00:00.000Z</updated>
+    <updated>2024-03-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jcubic.github.io/lips-website/blog"/>
     <subtitle>LIPS Scheme Blog</subtitle>
     <icon>https://jcubic.github.io/lips-website/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://jcubic.github.io/lips-website/blog/welcome</id>
-        <link href="https://jcubic.github.io/lips-website/blog/welcome"/>
-        <updated>2024-02-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is first article on LIPS blog. The blog is powered by Docusaurus.]]></summary>
-        <content type="html"><![CDATA[<p>This is first article on LIPS blog. The blog is powered by <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.</p>]]></content>
+        <title type="html"><![CDATA[LIPS History]]></title>
+        <id>https://jcubic.github.io/lips-website/blog/lips-history</id>
+        <link href="https://jcubic.github.io/lips-website/blog/lips-history"/>
+        <updated>2024-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the first article on LIPS blog. In this article I will write about the history of LIPS]]></summary>
+        <content type="html"><![CDATA[<p>This is the first article on LIPS blog. In this article I will write about the history of LIPS
+Scheme interpreter.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-scheme">What is Scheme?<a href="https://jcubic.github.io/lips-website/blog/lips-history#what-is-scheme" class="hash-link" aria-label="Direct link to What is Scheme?" title="Direct link to What is Scheme?">​</a></h2>
+<p>Scheme is a dialect of the Lisp. The second oldest programming language still in use (after
+Fortran).  Lisp and Scheme have specific syntax with prefix notation and where everything is a list.
+It's also <a href="https://en.wikipedia.org/wiki/Homoiconicity" target="_blank" rel="noopener noreferrer">Homoiconic</a>, which means that code and data
+have the same represantion. This allows to write lisp (and Scheme) programs that modify the code
+like it was data.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-lips">What is LIPS?<a href="https://jcubic.github.io/lips-website/blog/lips-history#what-is-lips" class="hash-link" aria-label="Direct link to What is LIPS?" title="Direct link to What is LIPS?">​</a></h2>
+<p>LIPS name is a recursive ancronym which stands for "LIPS Is Pretty Simple". LIPS Scheme is implementation of
+Scheme programming language in JavaScript. It adds a lot of stuff on top of Scheme to make it more powerful
+and easier to interact with JavaScript.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="history-of-lips">History of LIPS<a href="https://jcubic.github.io/lips-website/blog/lips-history#history-of-lips" class="hash-link" aria-label="Direct link to History of LIPS" title="Direct link to History of LIPS">​</a></h2>
+<p>It all started in February of 2018. I've written the first version of Lisp interpreter. You can
+still see the code on <a href="https://codepen.io/jcubic/pen/gvvzdp" target="_blank" rel="noopener noreferrer">CodePen</a>. Then I moved the
+<a href="https://github.com/jcubic/lips" target="_blank" rel="noopener noreferrer">devlopment to GitHub</a> and created a name LIPS.  The first release
+(version 0.2.0) is marked as Mar 2018.</p>
+<p>At the begining it was Lisp based on Scheme, but at one point after version
+<a href="https://github.com/jcubic/lips/releases/tag/0.20.1" target="_blank" rel="noopener noreferrer">0.20.1 dated as Jul 1, 2020</a>. I've starting
+adding features on devel branch and decided that I want full Scheme implementation. But it turns out that there are
+way to many breaking changes to release next version. So I decided that I will release it as beta-1.0. Since then LIPS keeps introducing new Beta version. You can see the <a href="https://github.com/jcubic/lips/releases" target="_blank" rel="noopener noreferrer">latest release on GitHub</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="future-of-lips">Future of LIPS<a href="https://jcubic.github.io/lips-website/blog/lips-history#future-of-lips" class="hash-link" aria-label="Direct link to Future of LIPS" title="Direct link to Future of LIPS">​</a></h2>
+<p>For the future plans I want in version 1.0 are implementation of continutations and <abbr title="Tail Call Optimization">TCO</abbr>. To see the progress you can check
+<a href="https://github.com/jcubic/lips/issues?q=is%3Aopen+is%3Aissue+milestone%3A1.0" target="_blank" rel="noopener noreferrer">1.0 Milestone on GitHub</a>.</p>]]></content>
         <author>
             <name>Jakub T. Jankiewicz</name>
             <uri>https://jakub.jankiewicz.org/</uri>
