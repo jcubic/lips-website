@@ -45,7 +45,7 @@ release it as beta-1.0. Since then LIPS keeps introducing new Beta versions. You
             <name>Jakub T. Jankiewicz</name>
             <uri>https://jakub.jankiewicz.org/</uri>
         </author>
-        <category label="hello" term="hello"/>
         <category label="lips" term="lips"/>
+        <category label="history" term="history"/>
     </entry>
 </feed>

@@ -42,8 +42,8 @@ release it as beta-1.0. Since then LIPS keeps introducing new Beta versions. You
 (<abbr title="Tail Call Optimization">TCO</abbr>) and to be compatibible (more or less) with
 <a href="https://standards.scheme.org/" target="_blank" rel="noopener noreferrer">R<sup>7</sup>RS specification</a>. To see the progress you can check
 <a href="https://github.com/jcubic/lips/issues?q=is%3Aopen+is%3Aissue+milestone%3A1.0" target="_blank" rel="noopener noreferrer">1.0 Milestone on GitHub</a>.</p>]]></content:encoded>
-            <category>hello</category>
             <category>lips</category>
+            <category>history</category>
         </item>
     </channel>
 </rss>
