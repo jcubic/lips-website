@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.1.0">
 <title data-rh="true">Core features | LIPS Scheme</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://jcubic.github.io/lips-website/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://jcubic.github.io/lips-website/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://jcubic.github.io/lips-website/docs/lips/intro"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Core features | LIPS Scheme"><meta data-rh="true" name="description" content="null and undefined"><meta data-rh="true" property="og:description" content="null and undefined"><link data-rh="true" rel="icon" href="/lips-website/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://jcubic.github.io/lips-website/docs/lips/intro"><link data-rh="true" rel="alternate" href="https://jcubic.github.io/lips-website/docs/lips/intro" hreflang="en"><link data-rh="true" rel="alternate" href="https://jcubic.github.io/lips-website/docs/lips/intro" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/lips-website/blog/rss.xml" title="LIPS Scheme RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/lips-website/blog/atom.xml" title="LIPS Scheme Atom Feed"><link rel="stylesheet" href="/lips-website/assets/css/styles.1ff9672b.css">
-<script src="/lips-website/assets/js/runtime~main.75b5d4c8.js" defer="defer"></script>
+<script src="/lips-website/assets/js/runtime~main.0a7985e2.js" defer="defer"></script>
 <script src="/lips-website/assets/js/main.0b8e27a7.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -53,6 +53,13 @@ values, since they are part of JavaScript and it would simplify the code.</p>
 </span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="macros">Macros<a href="#macros" class="hash-link" aria-label="Direct link to Macros" title="Direct link to Macros">​</a></h2>
 <p>LIPS define both Lisp macros and Scheme hygienic macros (<code>syntax-rules</code>).</p>
+<p>It also implements:</p>
+<ul>
+<li><a href="https://srfi.schemers.org/srfi-46/" target="_blank" rel="noopener noreferrer">SRFI-46</a> which allows to change ellipsis symbol for nested syntax-rules.</li>
+<li><a href="https://srfi.schemers.org/srfi-139/" target="_blank" rel="noopener noreferrer">SRFI-139</a> which allows to define
+<a href="/lips-website/docs/scheme-intro/macros#anaphoric-hygienic-macros">anaphoric syntax-rules macros</a>.</li>
+<li><a href="https://srfi.schemers.org/srfi-147/" target="_blank" rel="noopener noreferrer">SRFI-147</a> which allows to define new syntax-rules macros to define syntax-rules macros.</li>
+</ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="gensyms">Gensyms<a href="#gensyms" class="hash-link" aria-label="Direct link to Gensyms" title="Direct link to Gensyms">​</a></h3>
 <p>With lisp macros you can use gensyms they are special Scheme symbols that use JavaScript symbols
 behind the sceen so they are proven to be unique. Additionaly you can use named gensym if you pass
