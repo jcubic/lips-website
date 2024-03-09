@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknew_docs=self.webpackChunknew_docs||[]).push([[4409],{9964:s=>{s.exports=JSON.parse('{"label":"emacs","permalink":"/lips-website/blog/tags/emacs","allTagsPath":"/lips-website/blog/tags","count":1,"unlisted":false}')}}]);
