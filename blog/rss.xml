@@ -20,7 +20,7 @@ support those.  Other implementation includes <a href="https://practical-scheme.
 <a href="https://www.gnu.org/software/kawa/index.html">Kawa</a>.</p>
 <p>Unfortunetlly, you can&#39;t easily use those regular expressions in <a href="https://en.wikipedia.org/wiki/GNU_Emacs">GNU
 Emacs</a>, my main editor of choice.</p>
-]]></content:encoded>
+<br/><a href="/lips-website/blog/emacs-scheme-regex">see the rest of the article</a>]]></content:encoded>
             <category>scheme</category>
             <category>emacs</category>
         </item>
@@ -32,7 +32,7 @@ Emacs</a>, my main editor of choice.</p>
             <description><![CDATA[This is the first article on LIPS blog. In this article I will write about the history of LIPS]]></description>
             <content:encoded><![CDATA[<p>This is the first article on LIPS blog. In this article I will write about the history of LIPS
 Scheme interpreter.</p>
-]]></content:encoded>
+<br/><a href="/lips-website/blog/lips-history">see the rest of the article</a>]]></content:encoded>
             <category>lips</category>
             <category>scheme</category>
             <category>history</category>
