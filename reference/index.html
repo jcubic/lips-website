@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.1.0">
 <title data-rh="true">LIPS Scheme | LIPS Scheme</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://jcubic.github.io/lips-website/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://jcubic.github.io/lips-website/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://jcubic.github.io/lips-website/reference"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="LIPS Scheme | LIPS Scheme"><meta data-rh="true" name="description" content="Powerfull Scheme based Lisp in JavaScript"><meta data-rh="true" property="og:description" content="Powerfull Scheme based Lisp in JavaScript"><link data-rh="true" rel="icon" href="/lips-website/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://jcubic.github.io/lips-website/reference"><link data-rh="true" rel="alternate" href="https://jcubic.github.io/lips-website/reference" hreflang="en"><link data-rh="true" rel="alternate" href="https://jcubic.github.io/lips-website/reference" hreflang="x-default"><script data-rh="true" src="https://cdn.jsdelivr.net/npm/@jcubic/lips@beta/dist/lips.min.js" data-bootstrap="https://cdn.jsdelivr.net/npm/@jcubic/lips@beta/dist/std.xcb"></script><link rel="alternate" type="application/rss+xml" href="/lips-website/blog/rss.xml" title="LIPS Scheme blog RSS Feed"><link rel="stylesheet" href="/lips-website/assets/css/styles.e8780535.css">
-<script src="/lips-website/assets/js/runtime~main.3fe7b33f.js" defer="defer"></script>
+<script src="/lips-website/assets/js/runtime~main.f649e5a2.js" defer="defer"></script>
 <script src="/lips-website/assets/js/main.afc91e8e.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
-<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" target="_self" href="/lips-website/"><div class="navbar__logo"><img src="/lips-website/img/logo-black.svg" alt="LIPS Scheme Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/lips-website/img/logo-white.svg" alt="LIPS Scheme Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Scheme</b></a><a class="navbar__item navbar__link" href="/lips-website/docs/intro">Documentation</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/lips-website/reference">Reference</a><a class="navbar__item navbar__link" href="/lips-website/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://twitter.com/LIPS_scheme" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Twitter/X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://gitter.im/jcubic/lips" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Chat<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://github.com/jcubic/lips" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><main class="container_bfhl" style="--length:111"><h2 class="header_gB2a">LIPS Scheme Function and Macro Reference</h2><div class="search_Dg8h"><div class="input_wQOC"><label for="term">Search</label><input id="term"></div><ul><li><h2>-</h2><pre>(- n1 n2 ...)
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" target="_self" href="/lips-website/"><div class="navbar__logo"><img src="/lips-website/img/logo-black.svg" alt="LIPS Scheme Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/lips-website/img/logo-white.svg" alt="LIPS Scheme Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Scheme</b></a><a class="navbar__item navbar__link" href="/lips-website/docs/intro">Documentation</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/lips-website/reference">Reference</a><a class="navbar__item navbar__link" href="/lips-website/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://twitter.com/LIPS_scheme" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Twitter/X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://gitter.im/jcubic/lips" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Chat<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://github.com/jcubic/lips" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><main class="container_bfhl" style="--length:99"><h2 class="header_gB2a">LIPS Scheme Function and Macro Reference</h2><div class="search_Dg8h"><div class="input_wQOC"><label for="term">Search</label><input id="term"></div><ul><li><h2>-</h2><pre>(- n1 n2 ...)
 (- n)
 
 Subtracts n2 and subsequent numbers from n1. If only one argument is passed
@@ -172,12 +172,14 @@ starting at at.</pre></li><li><h2>bytevector-length</h2><pre>(u8vector-length v)
 
 return length of unsigned 8-bit integer vector (C unsigned char).</pre></li><li><h2>bytevector-u8-ref</h2><pre>(u8vector-ref vector k)
 
-Returns value from vector at index k. If index is out of range it throw exception.</pre></li><li><h2>bytevector-u8-set!</h2><pre>(u8vector-set! vector k)
+Returns value from vector at index k.
+If index is out of range it throw exception.</pre></li><li><h2>bytevector-u8-set!</h2><pre>(u8vector-set! vector k)
 
 Function set value of unsigned 8-bit integer vector (C unsigned char) at index k.
 If index is out of range it throw exception.</pre></li><li><h2>bytevector?</h2><pre>(u8vector? x)
 
-Returns #t of argument is unsigned 8-bit integer vector (C unsigned char) otherwise it return #f.</pre></li><li><h2>caaaaar</h2><pre>(caaaaar arg)
+Returns #t of argument is unsigned 8-bit integer vector (C unsigned char),
+otherwise it return #f.</pre></li><li><h2>caaaaar</h2><pre>(caaaaar arg)
 
 Function that calculates (car (car (car (car (car arg)))))</pre></li><li><h2>caaaadr</h2><pre>(caaaadr arg)
 
@@ -616,23 +618,27 @@ Create 32-bit IEEE-754 floating point number vector (C float) from give argument
 
 return length of 32-bit IEEE-754 floating point number vector (C float).</pre></li><li><h2>f32vector-ref</h2><pre>(f32vector-ref vector k)
 
-Returns value from vector at index k. If index is out of range it throw exception.</pre></li><li><h2>f32vector-set!</h2><pre>(f32vector-set! vector k)
+Returns value from vector at index k.
+If index is out of range it throw exception.</pre></li><li><h2>f32vector-set!</h2><pre>(f32vector-set! vector k)
 
 Function set value of 32-bit IEEE-754 floating point number vector (C float) at index k.
 If index is out of range it throw exception.</pre></li><li><h2>f32vector?</h2><pre>(f32vector? x)
 
-Returns #t of argument is 32-bit IEEE-754 floating point number vector (C float) otherwise it return #f.</pre></li><li><h2>f64vector</h2><pre>(f64vector v1 v2 ...)
+Returns #t of argument is 32-bit IEEE-754 floating point number vector (C float),
+otherwise it return #f.</pre></li><li><h2>f64vector</h2><pre>(f64vector v1 v2 ...)
 
 Create 64-bit IEEE-754 floating point number vector (C double) from give arguments.</pre></li><li><h2>f64vector-length</h2><pre>(f64vector-length v)
 
 return length of 64-bit IEEE-754 floating point number vector (C double).</pre></li><li><h2>f64vector-ref</h2><pre>(f64vector-ref vector k)
 
-Returns value from vector at index k. If index is out of range it throw exception.</pre></li><li><h2>f64vector-set!</h2><pre>(f64vector-set! vector k)
+Returns value from vector at index k.
+If index is out of range it throw exception.</pre></li><li><h2>f64vector-set!</h2><pre>(f64vector-set! vector k)
 
 Function set value of 64-bit IEEE-754 floating point number vector (C double) at index k.
 If index is out of range it throw exception.</pre></li><li><h2>f64vector?</h2><pre>(f64vector? x)
 
-Returns #t of argument is 64-bit IEEE-754 floating point number vector (C double) otherwise it return #f.</pre></li><li><h2>features</h2><pre>(features)
+Returns #t of argument is 64-bit IEEE-754 floating point number vector (C double),
+otherwise it return #f.</pre></li><li><h2>features</h2><pre>(features)
 
 Function returns implemented features as a list.</pre></li><li><h2>filter</h2><pre>(filter fn list)
 (filter regex list)
@@ -892,11 +898,14 @@ and return single expression as output.</pre></li><li><h2>magnitude</h2><pre>(ma
 
 Returns magnitude of the complex number in polar coordinate system.</pre></li><li><h2>make-bytevector</h2><pre>(make-u8vector k fill)
 
-Allocate new unsigned 8-bit integer vector (C unsigned char) of length k, with optional initial values.</pre></li><li><h2>make-f32vector</h2><pre>(make-f32vector k fill)
+Allocate new unsigned 8-bit integer vector (C unsigned char) of length k,
+with optional initial values.</pre></li><li><h2>make-f32vector</h2><pre>(make-f32vector k fill)
 
-Allocate new 32-bit IEEE-754 floating point number vector (C float) of length k, with optional initial values.</pre></li><li><h2>make-f64vector</h2><pre>(make-f64vector k fill)
+Allocate new 32-bit IEEE-754 floating point number vector (C float) of length k,
+with optional initial values.</pre></li><li><h2>make-f64vector</h2><pre>(make-f64vector k fill)
 
-Allocate new 64-bit IEEE-754 floating point number vector (C double) of length k, with optional initial values.</pre></li><li><h2>make-parameter</h2><pre>(make-parameter init converter)
+Allocate new 64-bit IEEE-754 floating point number vector (C double) of length k,
+with optional initial values.</pre></li><li><h2>make-parameter</h2><pre>(make-parameter init converter)
 
 Function creates new dynamic variable that can be custimized with parameterize
 macro. The value should be assigned to a variable e.g.:
@@ -911,22 +920,28 @@ Function that creates a promise from a function.</pre></li><li><h2>make-rectangu
 
 Creates a complex number from imaginary and real part (a+bi form).</pre></li><li><h2>make-s16vector</h2><pre>(make-s16vector k fill)
 
-Allocate new signed 16-bit integer vector (C short) of length k, with optional initial values.</pre></li><li><h2>make-s32vector</h2><pre>(make-s32vector k fill)
+Allocate new signed 16-bit integer vector (C short) of length k,
+with optional initial values.</pre></li><li><h2>make-s32vector</h2><pre>(make-s32vector k fill)
 
-Allocate new signed 32-bit integer vector (C unsigned int) of length k, with optional initial values.</pre></li><li><h2>make-s8vector</h2><pre>(make-s8vector k fill)
+Allocate new signed 32-bit integer vector (C unsigned int) of length k,
+with optional initial values.</pre></li><li><h2>make-s8vector</h2><pre>(make-s8vector k fill)
 
-Allocate new signed 8-bit integer vector (C signed char) of length k, with optional initial values.</pre></li><li><h2>make-string</h2><pre>(make-string k [char])
+Allocate new signed 8-bit integer vector (C signed char) of length k,
+with optional initial values.</pre></li><li><h2>make-string</h2><pre>(make-string k [char])
 
 Returns new string with k elements. If char is provided
 it&#x27;s filled with that character.</pre></li><li><h2>make-tags</h2><pre>(make-tags expression)
 
 Returns a list structure of code with better syntax then raw LIPS</pre></li><li><h2>make-u16vector</h2><pre>(make-u16vector k fill)
 
-Allocate new unsigned 16-bit integer vector (C unsigned short) of length k, with optional initial values.</pre></li><li><h2>make-u32vector</h2><pre>(make-u32vector k fill)
+Allocate new unsigned 16-bit integer vector (C unsigned short) of length k,
+with optional initial values.</pre></li><li><h2>make-u32vector</h2><pre>(make-u32vector k fill)
 
-Allocate new unsigned 32-bit integer vector (C int) of length k, with optional initial values.</pre></li><li><h2>make-u8vector</h2><pre>(make-u8vector k fill)
+Allocate new unsigned 32-bit integer vector (C int) of length k,
+with optional initial values.</pre></li><li><h2>make-u8vector</h2><pre>(make-u8vector k fill)
 
-Allocate new unsigned 8-bit integer vector (C unsigned char) of length k, with optional initial values.</pre></li><li><h2>make-vector</h2><pre>(make-vector n [fill])
+Allocate new unsigned 8-bit integer vector (C unsigned char) of length k,
+with optional initial values.</pre></li><li><h2>make-vector</h2><pre>(make-vector n [fill])
 
 Creates a new vector with n empty elements. If fill is specified it will set
 all elements of the vector to that value.</pre></li><li><h2>map</h2><pre>(map fn . lists)
@@ -1226,34 +1241,40 @@ Create signed 16-bit integer vector (C short) from give arguments.</pre></li><li
 
 return length of signed 16-bit integer vector (C short).</pre></li><li><h2>s16vector-ref</h2><pre>(s16vector-ref vector k)
 
-Returns value from vector at index k. If index is out of range it throw exception.</pre></li><li><h2>s16vector-set!</h2><pre>(s16vector-set! vector k)
+Returns value from vector at index k.
+If index is out of range it throw exception.</pre></li><li><h2>s16vector-set!</h2><pre>(s16vector-set! vector k)
 
 Function set value of signed 16-bit integer vector (C short) at index k.
 If index is out of range it throw exception.</pre></li><li><h2>s16vector?</h2><pre>(s16vector? x)
 
-Returns #t of argument is signed 16-bit integer vector (C short) otherwise it return #f.</pre></li><li><h2>s32vector</h2><pre>(s32vector v1 v2 ...)
+Returns #t of argument is signed 16-bit integer vector (C short),
+otherwise it return #f.</pre></li><li><h2>s32vector</h2><pre>(s32vector v1 v2 ...)
 
 Create signed 32-bit integer vector (C unsigned int) from give arguments.</pre></li><li><h2>s32vector-length</h2><pre>(s32vector-length v)
 
 return length of signed 32-bit integer vector (C unsigned int).</pre></li><li><h2>s32vector-ref</h2><pre>(s32vector-ref vector k)
 
-Returns value from vector at index k. If index is out of range it throw exception.</pre></li><li><h2>s32vector-set!</h2><pre>(s32vector-set! vector k)
+Returns value from vector at index k.
+If index is out of range it throw exception.</pre></li><li><h2>s32vector-set!</h2><pre>(s32vector-set! vector k)
 
 Function set value of signed 32-bit integer vector (C unsigned int) at index k.
 If index is out of range it throw exception.</pre></li><li><h2>s32vector?</h2><pre>(s32vector? x)
 
-Returns #t of argument is signed 32-bit integer vector (C unsigned int) otherwise it return #f.</pre></li><li><h2>s8vector</h2><pre>(s8vector v1 v2 ...)
+Returns #t of argument is signed 32-bit integer vector (C unsigned int),
+otherwise it return #f.</pre></li><li><h2>s8vector</h2><pre>(s8vector v1 v2 ...)
 
 Create signed 8-bit integer vector (C signed char) from give arguments.</pre></li><li><h2>s8vector-length</h2><pre>(s8vector-length v)
 
 return length of signed 8-bit integer vector (C signed char).</pre></li><li><h2>s8vector-ref</h2><pre>(s8vector-ref vector k)
 
-Returns value from vector at index k. If index is out of range it throw exception.</pre></li><li><h2>s8vector-set!</h2><pre>(s8vector-set! vector k)
+Returns value from vector at index k.
+If index is out of range it throw exception.</pre></li><li><h2>s8vector-set!</h2><pre>(s8vector-set! vector k)
 
 Function set value of signed 8-bit integer vector (C signed char) at index k.
 If index is out of range it throw exception.</pre></li><li><h2>s8vector?</h2><pre>(s8vector? x)
 
-Returns #t of argument is signed 8-bit integer vector (C signed char) otherwise it return #f.</pre></li><li><h2>scheme-report-environment</h2><pre>(scheme-report-environment version)
+Returns #t of argument is signed 8-bit integer vector (C signed char),
+otherwise it return #f.</pre></li><li><h2>scheme-report-environment</h2><pre>(scheme-report-environment version)
 
 Returns new Environment object for given Scheme Spec version.
 Only argument 5 is supported that create environment for R5RS.</pre></li><li><h2>search</h2><pre>(search pattern string)
@@ -1454,23 +1475,27 @@ Create unsigned 16-bit integer vector (C unsigned short) from give arguments.</p
 
 return length of unsigned 16-bit integer vector (C unsigned short).</pre></li><li><h2>u16vector-ref</h2><pre>(u16vector-ref vector k)
 
-Returns value from vector at index k. If index is out of range it throw exception.</pre></li><li><h2>u16vector-set!</h2><pre>(u16vector-set! vector k)
+Returns value from vector at index k.
+If index is out of range it throw exception.</pre></li><li><h2>u16vector-set!</h2><pre>(u16vector-set! vector k)
 
 Function set value of unsigned 16-bit integer vector (C unsigned short) at index k.
 If index is out of range it throw exception.</pre></li><li><h2>u16vector?</h2><pre>(u16vector? x)
 
-Returns #t of argument is unsigned 16-bit integer vector (C unsigned short) otherwise it return #f.</pre></li><li><h2>u32vector</h2><pre>(u32vector v1 v2 ...)
+Returns #t of argument is unsigned 16-bit integer vector (C unsigned short),
+otherwise it return #f.</pre></li><li><h2>u32vector</h2><pre>(u32vector v1 v2 ...)
 
 Create unsigned 32-bit integer vector (C int) from give arguments.</pre></li><li><h2>u32vector-length</h2><pre>(u32vector-length v)
 
 return length of unsigned 32-bit integer vector (C int).</pre></li><li><h2>u32vector-ref</h2><pre>(u32vector-ref vector k)
 
-Returns value from vector at index k. If index is out of range it throw exception.</pre></li><li><h2>u32vector-set!</h2><pre>(u32vector-set! vector k)
+Returns value from vector at index k.
+If index is out of range it throw exception.</pre></li><li><h2>u32vector-set!</h2><pre>(u32vector-set! vector k)
 
 Function set value of unsigned 32-bit integer vector (C int) at index k.
 If index is out of range it throw exception.</pre></li><li><h2>u32vector?</h2><pre>(u32vector? x)
 
-Returns #t of argument is unsigned 32-bit integer vector (C int) otherwise it return #f.</pre></li><li><h2>u8-ready?</h2><pre>(u8-ready?)
+Returns #t of argument is unsigned 32-bit integer vector (C int),
+otherwise it return #f.</pre></li><li><h2>u8-ready?</h2><pre>(u8-ready?)
 (u8-ready? port)
 
 Returns #t if a byte is ready on the binary input port and returns #f otherwise.
@@ -1481,12 +1506,14 @@ Create unsigned 8-bit integer vector (C unsigned char) from give arguments.</pre
 
 return length of unsigned 8-bit integer vector (C unsigned char).</pre></li><li><h2>u8vector-ref</h2><pre>(u8vector-ref vector k)
 
-Returns value from vector at index k. If index is out of range it throw exception.</pre></li><li><h2>u8vector-set!</h2><pre>(u8vector-set! vector k)
+Returns value from vector at index k.
+If index is out of range it throw exception.</pre></li><li><h2>u8vector-set!</h2><pre>(u8vector-set! vector k)
 
 Function set value of unsigned 8-bit integer vector (C unsigned char) at index k.
 If index is out of range it throw exception.</pre></li><li><h2>u8vector?</h2><pre>(u8vector? x)
 
-Returns #t of argument is unsigned 8-bit integer vector (C unsigned char) otherwise it return #f.</pre></li><li><h2>unary</h2><pre>(unary fn)
+Returns #t of argument is unsigned 8-bit integer vector (C unsigned char),
+otherwise it return #f.</pre></li><li><h2>unary</h2><pre>(unary fn)
 
 Returns a new function with arguments limited to one.</pre></li><li><h2>unbind</h2><pre>(unbind fn)
 
